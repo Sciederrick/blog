@@ -14,7 +14,7 @@ const { page, frontmatter } = useData()
         <a class="text-xl" href="/" aria-label="The Vue Point">
           <img
             class="inline-block mr-2"
-            style="width: 36px; height: 31px"
+            style="height: 45px"
             alt="logo"
             src="/logo.svg"
           />
