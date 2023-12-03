@@ -3,16 +3,16 @@ import { writeFileSync } from 'fs'
 import { Feed } from 'feed'
 import { createContentLoader, type SiteConfig } from 'vitepress'
 
-const baseUrl = `https://blog.vuejs.org`
+const baseUrl = `https://www.derrick.ink`
 
 export async function genFeed(config: SiteConfig) {
   const feed = new Feed({
-    title: 'The Vue Point',
-    description: 'The official blog for the Vue.js project',
+    title: 'The Data Point',
+    description: 'The official data blog by @der15171',
     id: baseUrl,
     link: baseUrl,
     language: 'en',
-    image: 'https://vuejs.org/images/logo.png',
+    image: `${baseUrl}/logo.svg`,
     favicon: `${baseUrl}/favicon.ico`,
     copyright:
       'Copyright (c) 2023-present, Derrick Mbarani'
