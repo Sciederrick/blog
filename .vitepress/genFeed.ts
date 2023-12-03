@@ -8,7 +8,7 @@ const baseUrl = `https://blog-sciederrick.vercel.app`
 export async function genFeed(config: SiteConfig) {
   const feed = new Feed({
     title: 'The Data Point',
-    description: 'The official data blog by @der15171',
+    description: 'The official data blog by Derrick Mbarani',
     id: baseUrl,
     link: baseUrl,
     language: 'en',
