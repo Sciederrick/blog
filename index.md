@@ -1,6 +1,6 @@
 ---
 title: The Data Point
-subtext: Data engineering & data analytics walkthroughs, insights and stories.
+subtext: Data analysis, data engineering & data science walkthroughs, insights and stories.
 sidebar: false
 index: true
 ---
